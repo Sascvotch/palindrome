@@ -13,9 +13,9 @@ public class Main {
         buffer.reverse();
         String myStringReverse = buffer.toString();
         if (myStringForward.equals(myStringReverse)) {
-            System.out.println("Строка '" + myString + "' is palindrome ");
+            System.out.println("Строка '" + myString + "' палиндром ");
         } else {
-            System.out.println("Строка '" + myString + "' is not palindrome ");
+            System.out.println("Строка '" + myString + "' не палиндром ");
         }
     }
 }
